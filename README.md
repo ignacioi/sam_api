@@ -1,4 +1,8 @@
-#Sustainable Resource Mapping/Management (SAM) API
+# Sustainable Resource Mapping/Management (SAM) API
+
+## Developers:
+- Graham Brown (@grellyd)[https://github.com/grellyd]
+- Ignacio (Fill this in buddy)
 
 ## Standards
 - Python 3.4.5
@@ -11,6 +15,8 @@
 
 ## Development
 - `source sam_venv/bin/activate`
-
-## Running the Application
 - `python -m lib.main`
+
+## Deployment
+- Heroku Automatically deploys from branch `production`
+- Push to that branch, and it should automatically deploy once built
