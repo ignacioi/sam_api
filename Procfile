@@ -1,1 +1,1 @@
-web: python -m lib.main
+web: gunicorn main:app
