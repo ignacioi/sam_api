@@ -23,9 +23,9 @@ def show_post(post_id):
 @app.route('/login', methods=[RequestMethods.GET, RequestMethods.POST])
 def login():
     if request.method == RequestMethods.POST:
-        _login_user()
+        return _login_user()
     else:
-        _show_login_form()
+        return _show_login_form()
 
 def _login_user():
     return 'Logging in...'
