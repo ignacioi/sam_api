@@ -2,3 +2,4 @@
 *.DS_*
 
 .env.*
+sam_venv
