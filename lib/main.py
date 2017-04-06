@@ -1,4 +1,4 @@
-from flask import Flask, url_for, request
+from flask import Flask, url_for, request, render_template
 from lib.enums import RequestMethods
 
 app = Flask(__name__)
@@ -8,8 +8,9 @@ def index():
     return "Hi! Welcome to the Index Page"
 
 @app.route('/hello')
-def hello():
-    return "Hello World~"
+@app.route('/hello/<name>')
+def hello(name=None):
+    return render_template('hello.html', name=name)
 
 @app.route('/user/<username>')
 def show_user_profile(username):
