@@ -1,7 +1,7 @@
 # Sustainable Resource Mapping/Management (SAM) API
 
 ## Developers:
-- Graham Brown (@grellyd)[https://github.com/grellyd]
+- Graham Brown [@grellyd](https://github.com/grellyd)
 - Ignacio (Fill this in buddy)
 
 ## Standards
