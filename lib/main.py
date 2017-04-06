@@ -1,5 +1,5 @@
 from flask import Flask, url_for, request
-from enums import RequestMethods
+from lib.enums import RequestMethods
 
 app = Flask(__name__)
 
