@@ -2,7 +2,7 @@
 
 ## Developers:
 - Graham Brown [@grellyd](https://github.com/grellyd)
-- Ignacio (Fill this in buddy)
+- Ignacio [@ignacioi](https://github.com/ignacioi)
 
 ## Standards
 - Python 3.4.5
